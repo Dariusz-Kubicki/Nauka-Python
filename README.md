@@ -28,3 +28,6 @@ Dokumentacja progresu nauki języka programowania Python. Nazywam się Dariusz K
 [ ] Rozwiązywanie zadań z poprzednich edycji: analiza problemów algorytmicznych.
 
 [ ] Debugowanie: umiejętność szybkiego znajdowania błędów w kodzie.
+
+## Spis treści:
+* [Hello World](./Hello-world)
