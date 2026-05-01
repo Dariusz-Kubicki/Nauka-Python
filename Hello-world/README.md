@@ -1,7 +1,7 @@
 # Lekcja 1: Hello world
 W tej lekcji napisałem pierwszy kod w pythonie. W rzeczywistości kiedyś już korzystałem z tego języka, ale to było dawno temu i już praktycznie nic nie pamiętam.
 
-## Prezentacja działania
+## Prezentacja działania kodu
 Kod składa się tylko z jednej linijki:
 ```python 
 print("Hello, World!")
@@ -10,6 +10,12 @@ Jedyne co on robi to wypisuje tekst `Hello, World!` do terminala.
 
 ### Funkcja `print()`
 Służy ona do wypisania tekstu, liczby lub innego ciągu znaków do terminala. Tekst musi być zamknięty w `""` lub `''`.
+
+### Konfiguracja sprzętu:
+* Korzystam z VS Code od Microsoft
+* Wersja Pythona: 3.14.4
+* Mam pobrane kilka wtyczek do VS Code żeby zamienić ten edytor tekstu w pełnoprawne IDE
+* Zautomatyzowane formatowanie dzięki wtyczce autopep8
 
 ### Skróty klawiszowe w VS Code
 * <kbd>Ctrl</kbd> + <kbd>S</kbd> - służy on do zapisania naszego pliku.
