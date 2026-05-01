@@ -1,4 +1,4 @@
-# Lekcja 1: Hello world
+# Lekcja 0: Hello world
 W tej lekcji napisałem pierwszy kod w pythonie. W rzeczywistości kiedyś już korzystałem z tego języka, ale to było dawno temu i już praktycznie nic nie pamiętam.
 
 ## Prezentacja działania kodu
