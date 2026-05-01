@@ -1,24 +1,25 @@
-# Lekcja 0: Hello world
-W tej lekcji napisałem pierwszy kod w pythonie. W rzeczywistości kiedyś już korzystałem z tego języka, ale to było dawno temu i już praktycznie nic nie pamiętam.
+# Lekcja 0: Hello World
+W tej lekcji napisałem swój pierwszy kod w Pythonie. W przeszłości miałem już styczność z tym językiem, jednak po przerwie zaczynam naukę od solidnych podstaw.
 
 ## Prezentacja działania kodu
-Kod składa się tylko z jednej linijki:
-```python 
+Kod składa się z jednej prostej instrukcji:
+
+```Python
 print("Hello, World!")
 ```
-Jedyne co on robi to wypisuje tekst `Hello, World!` do terminala.
+Jej zadaniem jest wypisanie tekstu `Hello, World!` w terminalu.
 
 ### Funkcja `print()`
-Służy ona do wypisania tekstu, liczby lub innego ciągu znaków do terminala. Tekst musi być zamknięty w `""` lub `''`.
+Służy do wyświetlania danych (tekstu, liczb czy wyników działań) w konsoli. Tekst (string) musi być umieszczony w cudzysłowie `""` lub apostrofach `''`.
 
-### Konfiguracja sprzętu:
-* Korzystam z VS Code od Microsoft
-* Wersja Pythona: 3.14.4
-* Mam pobrane kilka wtyczek do VS Code żeby zamienić ten edytor tekstu w pełnoprawne IDE
-* Zautomatyzowane formatowanie dzięki wtyczce autopep8
+### Moje środowisko pracy:
+* **Edytor**: Visual Studio Code (VS Code)
+* **Wersja Pythona**: 3.14.4
+* **Rozszerzenia**: Zainstalowałem wtyczki zmieniające edytor w pełnoprawne środowisko IDE.
+* **Formatowanie**: Korzystam z wtyczki `autopep8`, która automatycznie dba o czystość kodu zgodnie ze standardami PEP 8.
 
-### Skróty klawiszowe w VS Code
-* <kbd>Ctrl</kbd> + <kbd>S</kbd> - służy on do zapisania naszego pliku.
-* <kbd>Ctrl</kbd> + <kbd>`</kbd> - Otwiera Terminal.
-* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> - Otwiera panel z problemami
-* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> - Otwiera paletę poleceń
+### Przydatne skróty klawiszowe w VS Code:
+* <kbd>Ctrl</kbd> + <kbd>S</kbd> – zapisywanie pliku.
+* <kbd>Ctrl</kbd> + <kbd>`</kbd> – szybkie otwieranie/zamykanie terminala.
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> – podgląd panelu błędów (Problems).
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> – paleta poleceń (Command Palette).
