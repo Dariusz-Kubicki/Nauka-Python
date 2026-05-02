@@ -31,3 +31,4 @@ Dokumentacja progresu nauki języka programowania Python. Nazywam się Dariusz K
 
 ## Spis treści:
 * [Hello World](./Hello-world)
+* [Zmienne](./Zmienne)
