@@ -5,3 +5,4 @@ Dokumentacja progresu nauki języka programowania Python. Nazywam się Dariusz K
 * [Hello World](./Hello-world)
 * [Zmienne](./Zmienne)
 * [String](./String)
+* [Numbers](./Numbers)
