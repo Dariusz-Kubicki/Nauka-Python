@@ -6,3 +6,4 @@ Dokumentacja progresu nauki języka programowania Python. Nazywam się Dariusz K
 * [Zmienne](./Zmienne)
 * [String](./String)
 * [Numbers](./Numbers)
+* [Konwertowanie zmiennych](./Konwertowanie_zmiennych)
