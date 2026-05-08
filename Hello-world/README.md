@@ -9,14 +9,20 @@ print("Hello, World!")
 ```
 Jej zadaniem jest wypisanie tekstu `Hello, World!` w terminalu.
 
+---
+
 ### Funkcja `print()`
 Służy do wyświetlania danych (tekstu, liczb czy wyników działań) w konsoli. Tekst (string) musi być umieszczony w cudzysłowie `""` lub apostrofach `''`.
+
+---
 
 ### Moje środowisko pracy:
 * **Edytor**: Visual Studio Code (VS Code)
 * **Wersja Pythona**: 3.14.4
 * **Rozszerzenia**: Zainstalowałem wtyczki zmieniające edytor w pełnoprawne środowisko IDE.
 * **Formatowanie**: Korzystam z wtyczki `autopep8`, która automatycznie dba o czystość kodu zgodnie ze standardami PEP 8.
+
+---
 
 ### Przydatne skróty klawiszowe w VS Code:
 * <kbd>Ctrl</kbd> + <kbd>S</kbd> – zapisywanie pliku.
