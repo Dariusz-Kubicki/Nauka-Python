@@ -20,6 +20,8 @@ x = input("x: ")
 print(type(x))    # Wynik: <class 'str'>
 ```
 
+---
+
 ### Przykłady konwersji typów danych
 Aby wykonać obliczenia, musimy zmienić typ zmiennej. Służą do tego wbudowane funkcje:
 - `int(x)` – konwertuje na liczbę całkowitą.
@@ -29,6 +31,8 @@ Aby wykonać obliczenia, musimy zmienić typ zmiennej. Służą do tego wbudowan
 
 **Ważne:** Konwersja na `int` lub `float` powiedzie się tylko wtedy, gdy string zawiera znaki będące liczbami. Próba zamiany tekstu `"abc"` na liczbę zakończy się błędem `ValueError`.
 
+---
+
 ### Poprawiony kod z konwersją
 Dzięki zastosowaniu funkcji `int()`, nasz poprzedni przykład będzie działał bez zarzutu:
 
@@ -37,6 +41,8 @@ x = input("x: ")             # Pobieramy tekst (np. "5")
 y = int(x) + 1               # Konwertujemy tekst na liczbę i dodajemy 1
 print(f"x: {x}, y: {y}")     # Wynik: x: 5, y: 6
 ```
+
+---
 
 ### Specyfika konwersji na Boolean (wartość logiczną)
 Konwersja na typ `bool` w Pythonie jest bardzo ciekawa. Większość obiektów jest uznawana za `True`, chyba że są "puste" lub równe zero.
