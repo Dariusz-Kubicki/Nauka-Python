@@ -15,6 +15,8 @@ if is_sunny:            # Jeśli warunek jest prawdziwy (True)
 print("Koniec sprawdzania")    # Ten kod wykona się zawsze, bo nie ma wcięcia
 ```
 
+---
+
 ### Operatory porównania
 Rzadko wpisujemy `True` lub `False` ręcznie. Zazwyczaj generujemy je dynamicznie za pomocą **operatorów porównania**. Pozwalają one na zestawienie dwóch wartości:
 
@@ -29,6 +31,8 @@ print(a != b)  # Różne (nierówne): True
 print(a >= b)  # Większe lub równe: False
 print(a <= b)  # Mniejsze lub równe: True
 ```
+
+---
 
 ### Obsługa wielu warunków: `elif` oraz `else`
 Gdy chcemy sprawdzić więcej możliwości lub zdefiniować zachowanie domyślne, używamy instrukcji `elif` (skrót od else if) oraz `else`.
@@ -46,6 +50,8 @@ else:
     print("a i b są równe")
 ```
 
+---
+
 ### Praktyczny przykład: Klasyfikacja temperatury
 Poniższy kod pokazuje, jak w praktyce można wykorzystać drabinkę instrukcji warunkowych do interpretacji danych:
 
@@ -61,6 +67,8 @@ elif temperature > 10:
 else:
     print("Jest zimno.")
 ```
+
+---
 
 ### Optymalizacja kodu i Operator Trójargumentowy
 Dążąc do tego, aby kod w Pythonie był jak najbardziej czytelny i zwięzły (zgodnie z zasadą Pythonic way), możemy zapisać proste warunki w jednej linii.
