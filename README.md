@@ -13,3 +13,4 @@ Obecnie korzystam z kursów na platformie YouTube i na bieżąco opisuję tutaj 
 * [Numbers](./Numbers)
 * [Konwertowanie zmiennych](./Konwertowanie_zmiennych)
 * [Instrukcje warunkowe](./Instrukcje_warunkowe)
+* [Operatory logiczne](./Operatory_logiczne)
