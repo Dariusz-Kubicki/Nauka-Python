@@ -1,27 +1,27 @@
-# pętla for
-for number in range(1, 10, 2):  # range(start, stop, step)
-    print("Attempt", number, number * ".")
+# Generuje liczby: 1, 3, 5, 7, 9
+for number in range(1, 10, 2):
+    # number * "." mnoży ciąg znaków przez liczbę, tworząc odpowiednią liczbę kropek
+    print("Próba", number, number * ".")
 
 successful = True
 for number in range(3):
-    print("Attempt")
+    print("Próba...")
     if successful:
-        print("Successful!")
-        break   # Przerywa pętlę, jeśli warunek jest spełniony
-# Ten blok zostanie wykonany tylko wtedy, gdy pętla zakończy się normalnie (bez break)
+        print("Sukces!")
+        break  # Natychmiast przerywa pętlę, blok 'else' zostanie pominięty
 else:
-    print("Attempted 3 times and failed!")
+    # Ten kod wykona się tylko, jeśli pętla dojdzie do końca bez instrukcji 'break'
+    print("Wykonano 3 próby i nie udało się!")
 
-for x in range(5):  # Zewnętrzna pętla iterująca po x
-    for y in range(3):  # Wewnętrzna pętla iterująca po y
-        print(f"({x}, {y})")
+for x in range(5):      # Pętla zewnętrzna
+    for y in range(3):  # Pętla wewnętrzna (wykona się w całości dla każdego kroku x)
+        print(f"Współrzędne: ({x}, {y})")
+
+# Iteracja po znakach ciągu tekstowego
+for letter in "Python":
+    print(letter)
 
 print(type(5))         # <class 'int'>
 print(type(range(5)))  # <class 'range'>
 
-# range jest iteratorem, który generuje liczby na żądanie, co jest bardziej efektywne pamięciowo niż tworzenie listy wszystkich liczb od razu.
-
-print(list(range(5)))  # [0, 1, 2, 3, 4]
-
-for x in "Python":  # Iteracja po każdym znaku w stringu
-    print(x)
+print(list(range(5)))  # Wynik: [0, 1, 2, 3, 4]
