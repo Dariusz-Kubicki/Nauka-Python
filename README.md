@@ -15,3 +15,4 @@ Obecnie korzystam z kursów na platformie YouTube i na bieżąco opisuję tutaj 
 * [Instrukcje warunkowe](./Instrukcje_warunkowe)
 * [Operatory logiczne](./Operatory_logiczne)
 * [Pętla for](./Petla_for)
+* [Funkcje](./Funkcje)
