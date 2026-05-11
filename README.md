@@ -14,4 +14,4 @@ Obecnie korzystam z kursów na platformie YouTube i na bieżąco opisuję tutaj 
 * [Konwertowanie zmiennych](./Konwertowanie_zmiennych)
 * [Instrukcje warunkowe](./Instrukcje_warunkowe)
 * [Operatory logiczne](./Operatory_logiczne)
-* [Pętla for](./Pentla_for)
+* [Pętla for](./Petla_for)
