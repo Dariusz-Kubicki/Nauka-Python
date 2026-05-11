@@ -77,3 +77,18 @@ Jeśli chcesz zobaczyć wszystkie liczby naraz (np. w celu ich wypisania), może
 ```python
 print(list(range(5)))  # Wynik: [0, 1, 2, 3, 4]
 ```
+
+---
+
+### Zadanie
+Napisz program wypisujący: 1. wszystkie cyfry parzyste 2. ile ich jest.
+
+**Rozwiązanie**
+```Python
+count = 0
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even numbers")
+```
