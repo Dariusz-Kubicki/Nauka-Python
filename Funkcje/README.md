@@ -87,5 +87,3 @@ def increment(number, by):
 # Używamy nazwy parametru 'by', aby wyjaśnić, co robi ta wartość
 print(increment(2, by=1))
 ```
-
-```
