@@ -29,8 +29,6 @@ Funkcje mogą przyjmować dane, na których wykonują operacje.
 * **Parametry** to zmienne, które zapisujemy w nawiasach podczas definiowania funkcji.
 * **Argumenty** to konkretne wartości, które przekazujemy do funkcji w momencie jej wywołania.
 
-Poniżej przykład funkcji przyjmującej dwa parametry:
-
 ```python
 # Definicja funkcji z parametrami
 def greet(first_name, last_name):
@@ -44,46 +42,57 @@ greet("Dariusz", "Kubicki")
 ---
 
 ### Wartości domyślne (Argumenty opcjonalne)
-Możemy sprawić, że dany parametr będzie opcjonalny. Robimy to poprzez przypisanie mu **wartości domyślnej** już na etapie definicji funkcji. Jeśli podczas wywołania nie podamy tego argumentu, Python użyje wartości domyślnej. Jeśli go podamy – stara wartość zostanie nadpisana nową.
+Możemy sprawić, że dany parametr będzie opcjonalny, przypisując mu **wartość domyślną**. Jeśli podczas wywołania nie podamy tego argumentu, Python użyje wartości domyślnej. 
 
 **Ważne:** Parametry z wartościami domyślnymi muszą zawsze znajdować się na końcu listy parametrów.
 
 ```python
-# 'by' ma domyślną wartość 1
 def increment(number, by=1):
     return number + by
 
-# Użycie wartości domyślnej (wynik: 3)
-print(increment(2))
+print(increment(2))      # Wynik: 3 (użyto domyślnego by=1)
+print(increment(2, 5))   # Wynik: 7 (nadpisano domyślną wartość)
+```
 
-# Nadpisanie wartości domyślnej własnym argumentem (wynik: 7)
-print(increment(2, 5))
+---
+
+### Dowolna liczba argumentów (*args)
+Czasami nie wiemy dokładnie, ile danych będziemy chcieli przekazać do funkcji. W Pythonie możemy użyć operatora `*` (często nazywanego **xargs**). Dzięki niemu funkcja przyjmie dowolną liczbę argumentów, które zostaną potraktowane jako krotka (tuple), po której możemy iterować pętlą.
+
+```python
+# Funkcja mnożąca wszystkie podane liczby
+def multiply(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+# Możemy podać 2, 4 lub 10 argumentów – funkcja zadziała zawsze
+print(multiply(2, 3, 4, 5))
 ```
 
 ---
 
 ### Funkcja z wartością zwracaną
-Do tej pory funkcje wykonywały tylko polecenia (np. wypisywanie tekstu). Teraz napiszemy funkcję, która przetworzy dane i zwróci nam gotowy wynik za pomocą słowa kluczowego `return`. Wartość tę możemy później zapisać do zmiennej.
+Funkcje mogą nie tylko wykonywać polecenia, ale też zwracać wynik do dalszego wykorzystania za pomocą słowa kluczowego `return`. Pamiętaj, że `return` natychmiast przerywa działanie funkcji.
 
 ```python
-# Funkcja z wartością zwracaną
 def get_greeting(name):
     return f"Hi {name}!"
 
-# Przypisanie wyniku funkcji do zmiennej
 message = get_greeting("Dariusz")
 print(message)
 ```
 
 ---
 
-### Opisywanie argumentów (Argumenty słownikowe)
-W Pythonie możemy podczas wywoływania funkcji przypisać wartość bezpośrednio do nazwy parametru (`keyword arguments`). Jest to bardzo przydatne w dużych projektach, gdy chcemy, aby kod był bardziej czytelny i jasny dla innych programistów.
+### Opisywanie argumentów (Keyword Arguments)
+Podczas wywoływania funkcji możemy jawnie wskazać nazwę parametru. Zwiększa to czytelność kodu, zwłaszcza gdy funkcja przyjmuje wiele parametrów i nie chcemy pomylić ich kolejności.
 
 ```python
 def increment(number, by):
     return number + by
 
-# Używamy nazwy parametru 'by', aby wyjaśnić, co robi ta wartość
+# Wywołanie z nazwanym argumentem 'by'
 print(increment(2, by=1))
 ```
