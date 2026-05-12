@@ -43,6 +43,25 @@ greet("Dariusz", "Kubicki")
 
 ---
 
+### Wartości domyślne (Argumenty opcjonalne)
+Możemy sprawić, że dany parametr będzie opcjonalny. Robimy to poprzez przypisanie mu **wartości domyślnej** już na etapie definicji funkcji. Jeśli podczas wywołania nie podamy tego argumentu, Python użyje wartości domyślnej. Jeśli go podamy – stara wartość zostanie nadpisana nową.
+
+**Ważne:** Parametry z wartościami domyślnymi muszą zawsze znajdować się na końcu listy parametrów.
+
+```python
+# 'by' ma domyślną wartość 1
+def increment(number, by=1):
+    return number + by
+
+# Użycie wartości domyślnej (wynik: 3)
+print(increment(2))
+
+# Nadpisanie wartości domyślnej własnym argumentem (wynik: 7)
+print(increment(2, 5))
+```
+
+---
+
 ### Funkcja z wartością zwracaną
 Do tej pory funkcje wykonywały tylko polecenia (np. wypisywanie tekstu). Teraz napiszemy funkcję, która przetworzy dane i zwróci nam gotowy wynik za pomocą słowa kluczowego `return`. Wartość tę możemy później zapisać do zmiennej.
 
@@ -59,7 +78,7 @@ print(message)
 ---
 
 ### Opisywanie argumentów (Argumenty słownikowe)
-W Pythonie możemy podczas wywoływania funkcji przypisać wartość bezpośrednio do nazwy parametru. Jest to bardzo przydatne w dużych projektach, gdy nie pamiętasz kolejności parametrów lub chcesz, aby kod był bardziej czytelny dla innych.
+W Pythonie możemy podczas wywoływania funkcji przypisać wartość bezpośrednio do nazwy parametru (`keyword arguments`). Jest to bardzo przydatne w dużych projektach, gdy chcemy, aby kod był bardziej czytelny i jasny dla innych programistów.
 
 ```python
 def increment(number, by):
@@ -67,4 +86,6 @@ def increment(number, by):
 
 # Używamy nazwy parametru 'by', aby wyjaśnić, co robi ta wartość
 print(increment(2, by=1))
+```
+
 ```
