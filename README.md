@@ -6,8 +6,17 @@ Do drugiego etapu pozostało mi tylko 12 dni. W związku z tym podjąłem decyzj
 
 Obecnie korzystam z kursów na platformie YouTube i na bieżąco opisuję tutaj zdobytą wiedzę. Po zakończeniu konkursu planuję stworzyć nowe repozytorium, w którym będę publikował wyłącznie większe projekty i gotowe kody, bez szczegółowego rozpisywania podstaw. Te ostatnie zamierzam solidnie opanować, bazując na książce "Python. Instrukcje dla programisty" autorstwa Erica Matthesa.
 
-### 31.05.2026
-Przez ostatnie dwa tygodnie nie programowałem, niestety nie udało mi się przejść drugiego etapu konkursu Gigathon i trochę miałem przerwę od komutera. Ale dzisiaj już wracam do żywych i będę się dalej uczyć Pythona tylko że teraz z książki "Python. Instrukcje dla programisty", wszystkie napisane programy będę tutaj wrzucał i opisywał, a dla większych projektów z tej książki przygotuje osobne repozytoria 
+### Powrót do regularnej nauki i aktualizacja planów (31.05.2026)
+
+Przez ostatnie dwa tygodnie nie programowałem – niestety nie udało mi się przejść drugiego etapu konkursu Gigathon i miałem trochę przerwy od komputera. Ale dzisiaj już wracam do żywych! 
+
+Dalej będę się uczył Pythona, tylko że teraz z książki **"Python. Instrukcje dla programisty"**. 
+
+**Jak będę prowadził to repozytorium?**
+* Wszystkie napisane programy z książki będę tutaj wrzucał i opisywał.
+* Dla większych projektów przygotuję osobne, dedykowane repozytoria.
+
+Konkurs był dla mnie tylko motywacją do zaczęcia z Pythonem, a nie ostatecznym celem. Moim celem wciąż jest edukowanie się w stronę **branży systemów wbudowanych (Embedded Systems)**, a Python jest tutaj narzędziem wspomagającym.
 
 ## Spis treści:
 * [Hello World](./Hello-world)
