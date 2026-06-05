@@ -30,3 +30,4 @@ Konkurs był dla mnie tylko motywacją do zaczęcia z Pythonem, a nie ostateczny
 * [Operatory logiczne](./Operatory_logiczne)
 * [Pętla for](./Petla_for)
 * [Funkcje](./Funkcje)
+* [**Programy z książki**](./Programy_z_ksiazki)
